@@ -1,4 +1,4 @@
-# Online course starter: Python
+# Online course starter: Elixir
 
 This is a starter repo based on the
 [course framework](https://github.com/ines/spacy-course) I developed for my

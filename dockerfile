@@ -1,12 +1,12 @@
-# Docker file for running Gatsby without installing node version 10 or Gatsby.
-# Attribution: https://stackoverflow.com/questions/57405792/gatsby-not-rebuilding-whenever-mounted-code-changes
-# Hayley Boyce (kinda not really), February 6th, 2020
+FROM pprzetacznik/ielixir
+# install the notebook package
+RUN pip install --no-cache --upgrade pip && \
+    pip install --no-cache notebook
 
-FROM node:10
+# create user with a home directory
+ARG NB_USER
+ARG NB_UID
+ENV USER ${NB_USER}
+ENV HOME /home/${NB_USER}
 
-# Add the package.json file and build the node_modules folder
-WORKDIR /app
-COPY ./package*.json ./
-RUN mkdir node_modules
-RUN npm install --g gatsby-cli 
-RUN npm install
+WORKDIR ${HOME}

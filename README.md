@@ -1,17 +1,20 @@
 # Online course starter: Elixir
 
 This is a starter repo based on the
-[course framework](https://github.com/ines/spacy-course) I developed for my
+[course framework](https://github.com/ines/spacy-course) that ines devloped for her
 [spaCy course](https://course.spacy.io). The front-end is powered by
 [Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
 back-end code execution uses [Binder](https://mybinder.org) 💖
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ines/courser-starter-python)
+I adapted her implementation for the course starter so that it would run with the `ielixir` kernel
 
-[![](https://user-images.githubusercontent.com/13643239/56341448-68fe9380-61b5-11e9-816f-5c71ae71b94f.png)](https://course-starter-python.netlify.com)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/J0/course-starter-elixir)
+
+[![](https://user-images.githubusercontent.com/13643239/56341448-68fe9380-61b5-11e9-816f-5c71ae71b94f.png)](https://course-starter-elixir.netlify.app/)
 
 ## 📖 Documentation
 
+[TODO](Joel). Please refer to the Python documenation(below) for now.
 <a href="https://ines.github.io/course-starter-python/"><img width="300" src="https://user-images.githubusercontent.com/13643239/75773176-ab897a00-5d4d-11ea-8593-1fc018885611.png" align="right"></a>
 
 Thanks to [@hfboyce](https://github.com/hfboyce) for contributing a super detailed guide on getting started with this course framework, adding exercises, slides and other content, and customizing the design. It also comes with a Dockerfile that takes care of the dependencies for you.
